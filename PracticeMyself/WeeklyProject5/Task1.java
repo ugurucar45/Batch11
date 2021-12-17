@@ -15,18 +15,19 @@ public class Task1 {
         System.out.println("Please enter a string");
         String str = sc.nextLine();
         String rts = "";
-        char a=' ';
-        for (int b=0; a == str.charAt(b); b++) {
-            if (str.substring(0, 1).equals(" ")) {
-                str = str.substring(1);
-            }
-        }//use trim
-      //  for ( int c = str.length(); a == str.crrrrrrrrrrrrrrrrrharAt(c); c--) {
-            if (str.substring(str.length() - 1).equals(" ")) {
-                str = str.substring(0, str.length() - 1);
-                //c--;
-        //    }
-        }
+        str=str.trim();
+//             char a=' ';
+//        for (int b=0; a == str.charAt(b); b++) {
+//            if (str.substring(0, 1).equals(" ")) {
+//                str = str.substring(1);
+//            }
+//        }//use trim
+//      //  for ( int c = str.length(); a == str.crrrrrrrrrrrrrrrrrharAt(c); c--) {
+//            if (str.substring(str.length() - 1).equals(" ")) {
+//                str = str.substring(0, str.length() - 1);
+//                //c--;
+//        //    }
+//        }
         for (int i = str.length() - 1; i >= 0; i--) {
             rts = rts + str.substring(i, i + 1);
         }
