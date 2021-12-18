@@ -21,7 +21,7 @@ public class Task1 {
 //            if (str.substring(0, 1).equals(" ")) {
 //                str = str.substring(1);
 //            }
-//        }//use trim
+//        }
 //      //  for ( int c = str.length(); a == str.crrrrrrrrrrrrrrrrrharAt(c); c--) {
 //            if (str.substring(str.length() - 1).equals(" ")) {
 //                str = str.substring(0, str.length() - 1);
