@@ -13,7 +13,7 @@ public class Methods1 {
 //
 //        name.length();//  ----> 7
 
-//        //indexOf();    ---------> returrns index number of given char
+//        //indexOf();    ---------> returns index number of given char
 //        name.indexOf('a');----> 1
 //        name.indexOf("a");----> 1
 //
@@ -29,13 +29,7 @@ public class Methods1 {
 //        //contains(); it will if the string has given value or not, returns true/false
 //        //equals(); it will check if the given string has exactly same order of char. will return true/false
 //
-//
-//
-//
-//
-//
-//
-//
+
 
         String device = "microphone";
         device.concat(" is an input device");

@@ -20,24 +20,38 @@ public class SplitPractice2 {
             }
         }
         String[] word = text.split(" ");
-        String[] even = new String[word.length];
-        String[] odd = new String[word.length];
         int i=0,j=0;
         for (int a = 0; a < word.length; a++) {
             if (word[a].equals("")) {
             } else {
                 if (word[a].length() % 2 == 0) {
-                    even[i] = word[a];
+                  //  even[i] = word[a];
                     i++;
                 } else if (word[a].length() % 2 == 1) {
-                    odd[j] = word[a];
+                   // odd[j] = word[a];
                     j++;
                 }
             }
         }
+        String[] even = new String[i];
+        String[] odd = new String[j];
+        int z=0,x=0;
+        for (int a = 0; a < word.length; a++) {
+            if (word[a].equals("")) {
+            } else {
+                if (word[a].length() % 2 == 0) {
+                    even[z] = word[a];
+                    z++;
+                } else if (word[a].length() % 2 == 1) {
+                    odd[x] = word[a];
+                    x++;
+                }
+            }
+        }
         System.out.println(Arrays.toString(even));
-        System.out.println("even words --> " + (i+1));
+        System.out.println("even words --> " + (even.length));
         System.out.println(Arrays.toString(odd));
-        System.out.println("odd words --> " + (j+1));
+        System.out.println("odd words --> " + (odd.length));
+        System.out.println(word.length);
     }
 }

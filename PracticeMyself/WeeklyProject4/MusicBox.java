@@ -16,7 +16,7 @@ public class MusicBox {
             if (str.equals("classical")) {
                 System.out.println("Four Seasons, Fur Elise, Finlandia, Vocalise, The\n" +
                         "Planets is available music under our music box\n Which one do you want to listen? ");
-                String nameCl = ssss.nextLine().toLowerCase(Locale.ROOT);
+                String nameCl = ssss.nextLine().toLowerCase();
                 if (nameCl.equals("four seasons") || nameCl.equals("fur elise") || nameCl.equals("finlandia") || nameCl.equals("vocalise") ||
                         nameCl.equals("the planets")) {
                     System.out.println("Please enter the 2$ for this music");
@@ -36,7 +36,7 @@ public class MusicBox {
             } else if (str.equals("pop")) {
                 System.out.println("Bad guy, Talk, Please Me, 7 Ring, Without Me is\n" +
                         "available songs under Pop music \nWhich one do you want to listen?");
-                String namePop = ssss.nextLine().toLowerCase(Locale.ROOT);
+                String namePop = ssss.nextLine().toLowerCase();
                 if (namePop.equals("bad guy") || namePop.equals("talk") ||
                         namePop.equals("please me") || namePop.equals("7 ring") || namePop.equals("without me is")) {
                     System.out.println("Please enter the 4$ for this music");

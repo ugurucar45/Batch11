@@ -7,7 +7,7 @@ public class Task1 {
 //        Reverse a given String and return it, if they have space in the beginning and at the end then remove it.
 //        Example:
 //        " Job" -> "boJ"
-//                * " Happy " -> "yppaH"
+//                * " Happy" -> "yppaH"
 //                * "Sun " -> "nuS"
 //                * " Dream Job!" -> "!boJ maerD"
 
