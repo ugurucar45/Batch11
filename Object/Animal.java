@@ -1,7 +1,7 @@
 package Object;
 
 public class Animal {
-
+        //instance variables main icinde degiller
     String name;      // declared a variable and named it "animal"
     int age;          // global/instance variable
     String color;     // global/instance variable.  SO FAR NO OBJECT
@@ -13,8 +13,10 @@ public class Animal {
     //sleep = is my methods name    (it is our custom method)
     //()  = is parameter____1 or more
     //{ } = is block from the another things    // of course in here we have codes
-    public void sleep(){
-        energy=100;
+    public void sleep(){// if i change public to private another class gets error
+        energy=100;     // if you use private it means just here avaible
+        int height;
+        //System.out.println(height); height is local variables don have any default values
         System.out.println(name+" is sleeping");
         System.out.println(name+ " is charging up...");
         System.out.println("Now "+name+"'s energy is "+energy);
