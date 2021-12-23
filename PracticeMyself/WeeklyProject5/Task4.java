@@ -18,13 +18,10 @@ public class Task4 {
         int line = sc.nextInt();
         if (line > 0 && line < 11) {
             for (int i = 1; line >= i; i++) {
-                if (i == 1) {
-                } else {
-                    System.out.println();
-                }
                 for (int j = 1; i >= j; j++) {
                     System.out.print(i);
                 }
+                System.out.println();
             }
         } else {
             System.out.println("Please enter between 1 to 10");

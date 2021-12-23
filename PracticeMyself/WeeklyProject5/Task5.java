@@ -20,13 +20,11 @@ public class Task5 {
         int say = line;
         if (line > 0 && line < 11) {
             for (int i = 1; line >= i; i++, say--) {
-                if (i == 1) {
-                } else {
-                    System.out.println();
-                }
                 for (int j = say; j >= 1; j--) {
                     System.out.print(say);
                 }
+                System.out.println();
+
             }
         } else {
             System.out.println("Please enter between 1 to 10");
