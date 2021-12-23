@@ -53,7 +53,11 @@ public class TestAnimal {
         System.out.println(cat.energy+" cats energy SOUT;dan gelen");
         cat.run();
 
+        //Another day
 
+        System.out.println(cat.name);
+        System.out.println(cat);        //Object.Animal@523884b2
+        cat.info();
 
 
 

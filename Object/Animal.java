@@ -32,7 +32,11 @@ public class Animal {
             System.out.println(name+" cant runs need time to energy");
         }
     }
+    public void info(){
+        System.out.println("Name is :"+name+"\t\tAge is :"+age+"\t\tColor is :"+color+"\t\tBreed is :"+breed+"\t" +
+                "\tEnergy is :"+energy);
 
+    }
 
     public static void main(String[] args){
         String lastName;
