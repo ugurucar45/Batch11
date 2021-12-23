@@ -16,14 +16,18 @@ public class Task4 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter one number between 1 to 10");
         int line = sc.nextInt();
-        for (int i = 1; line >= i; i++) {
-            if (i == 1) {
-            } else {
-                System.out.println();
+        if (line > 0 && line < 11) {
+            for (int i = 1; line >= i; i++) {
+                if (i == 1) {
+                } else {
+                    System.out.println();
+                }
+                for (int j = 1; i >= j; j++) {
+                    System.out.print(i);
+                }
             }
-            for (int j = 1; i >= j; j++) {
-                System.out.print(i);
-            }
+        } else {
+            System.out.println("Please enter between 1 to 10");
         }
     }
 }

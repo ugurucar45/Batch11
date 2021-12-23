@@ -17,13 +17,19 @@ public class Task5 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter one number between 1 to 10");
         int line = sc.nextInt();
-        int say=line;
-        for (int i = 1; line >= i; i++,say--) {
-            if(i==1){}else{
-            System.out.println();}
-            for (int j = say;j>=1; j--) {
-                System.out.print(say);
+        int say = line;
+        if (line > 0 && line < 11) {
+            for (int i = 1; line >= i; i++, say--) {
+                if (i == 1) {
+                } else {
+                    System.out.println();
+                }
+                for (int j = say; j >= 1; j--) {
+                    System.out.print(say);
+                }
             }
+        } else {
+            System.out.println("Please enter between 1 to 10");
         }
     }
 }
