@@ -12,5 +12,16 @@ public class TestMath {
         object.total(10,5);          //10 + 5 = 15
         object.total(31731,123441);
 
+
+        //System.out.println(object.sum());
+        // you can not use method which has void return type in the sout
+        int a=object.sum2(4,5);
+        //int b=object.total(4,5);              // error because total methods return type is just shows not take number
+        System.out.println(object.sum2(5,3));
+        int x=a*a;                              //if you want you will use;
+
+
+
+
     }
 }

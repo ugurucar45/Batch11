@@ -20,5 +20,10 @@ public class MathPractice {
         System.out.println(num1 + " + " + num2 + " = " + total);
 
     }
+    public int sum2(int number1,int number2){
+        int res = number1 + number2;
+        System.out.println("--->>"+res);
+        return res;
+    }
 
 }
