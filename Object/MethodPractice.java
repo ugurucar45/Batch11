@@ -10,11 +10,20 @@ public class MethodPractice {
     `user provides the birth year
     `will print age of person
      */
-    public int age(int birthye){
-        int birthYear= birthye;
-        int ages= LocalDateTime.now().getYear() -birthye;
-        System.out.println("Your age is ==> "+ages);
+    public int age(int birthye) {
+        int birthYear = birthye;
+        int ages = LocalDateTime.now().getYear() - birthye;
+        System.out.println("Your age is ==> " + ages);
         return ages;
+    }
+
+    //overload ageCalculater method by passing name of the person and
+    //return age
+    public int age(int birthyear, String name) {
+        int ags = LocalDateTime.now().getYear() - birthyear;
+        System.out.println(name+"Your age is ==> " + ags);
+        System.out.println("Oveloaded age calculater ");
+        return ags;
     }
 
     public static void main(String[] args) {//i create main method here and i m do same method
@@ -28,12 +37,12 @@ public class MethodPractice {
         it will return the sum as double
      */
 
-    public double sumOfArray(int[] arr){
-        int sum=0;
-        for (int a:arr) {
-            sum+=a;
+    public double sumOfArray(int[] arr) {
+        int sum = 0;
+        for (int a : arr) {
+            sum += a;
         }
-        System.out.println("Sum of the arrays ==> "+sum);
+        System.out.println("Sum of the arrays ==> " + sum);
         return sum;
     }
 

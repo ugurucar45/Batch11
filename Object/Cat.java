@@ -18,6 +18,9 @@ public class Cat {
     public void run(String destination) {// i dont need any return i use void
         foodAmount -= 1;
         System.out.println(name + " is running to " + destination);
+    }  public void run() {// i dont need any return i use void
+
+        System.out.println("Overloaded run method in the car class" );
     }
 
     /*
