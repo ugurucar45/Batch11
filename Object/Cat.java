@@ -10,7 +10,11 @@ public class Cat {
     it will reduce food amount by 1 for every execution
     it will print out as "Cat is running ...<west>"
      */
-
+//overload the run method with your own preference
+    public void run(int amount){
+        foodAmount-=amount;
+        System.out.println(name+" is food amount is "+ foodAmount);
+    }
     public void run(String destination) {// i dont need any return i use void
         foodAmount -= 1;
         System.out.println(name + " is running to " + destination);
