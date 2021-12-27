@@ -16,18 +16,19 @@ public class Main {
      * @return maximum value from array
      */
     public int maxNum(int[] arrays) {
-//        int res = 0;
-//        for (int i = 0; i < arrays.length; i++) {
-//            if (arrays[i] > res) {
-//                res = arrays[i];
-//            }
-//            if (arrays.length == 1) {
-//                res = arrays[0];
-//            }
-//        }
-        Arrays.sort(arrays);
-
-        return arrays[arrays.length - 1];
+        int res = 0;
+        for (int i = 0; i < arrays.length; i++) {
+            if (arrays[i] > res) {
+                res = arrays[i];
+            }
+            if (arrays.length == 1) {
+                res = arrays[0];
+            }
+        }
+//        Arrays.sort(arrays);
+//
+//        return arrays[arrays.length - 1];
+        return res;
     }
 
     /*
@@ -229,15 +230,15 @@ public class Main {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] == nums[j] && nums[i] != 1995996192) {
+                if (nums[i] == nums[j] && nums[i] != Integer.MAX_VALUE) {
                     count++;
-                    nums[j] = 1995996192;
+                    nums[j] = Integer.MAX_VALUE;
                 }
             }
         }
         int[] den = new int[nums.length - count];
         for (int i = 0, k = 0; i < nums.length; i++) {
-            if (nums[i] == 1995996192) {
+            if (nums[i] == Integer.MAX_VALUE) {
             } else {
                 den[k] = nums[i];
                 k++;
