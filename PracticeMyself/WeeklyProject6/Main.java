@@ -15,8 +15,8 @@ public class Main {
      * @param arrays of numbers
      * @return maximum value from array
      */
-    public int maxNum(int[] arrays) {
-        int res = 0;
+    public int maxNum(int[] arrays) {//{-1,-2,-3}
+        int res = Integer.MIN_VALUE;
         for (int i = 0; i < arrays.length; i++) {
             if (arrays[i] > res) {
                 res = arrays[i];
@@ -63,22 +63,17 @@ public class Main {
      */
 
     public boolean threeAmigos(int[] array) {
-        int odd = 0, even = 0;
-        for (int i = 0; array.length > i; i++) {
-            if (array[i] % 2 == 1) {
-                odd++;
-            }
-        }
-        for (int i = 0; array.length > i; i++) {
-            if (array[i] % 2 == 0) {
-                even++;
-            }
-        }
         boolean res = false;
-        if (odd > 2 || even > 2) {
-            res = true;
-            if (odd > 2 && even > 2) {
-                res = false;
+        for (int i = 0; array.length-2 > i; i++) {
+            if (array[i] % 2 == 1&&array[i+1] % 2 == 1&&array[i+2] % 2 == 1) {
+                res = true;
+                break;
+            }
+        }
+        for (int i = 0; array.length-2 > i; i++) {
+            if (array[i] % 2 == 0 && array[i+1] % 2 == 0 &&array[i+2] % 2 == 0) {
+                res = true;
+                break;
             }
         }
         return res;
@@ -196,7 +191,7 @@ public class Main {
      * @param array of numbers
      * @return combined numbers of array
      */
-    public long combineNumbers(int[] numbers) {
+    public long combineNumbers(int[] numbers) {//use remainder try again
         int res = 0;
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] < 0) {
@@ -206,9 +201,8 @@ public class Main {
                 res *= 10;
             }
             if (numbers[i] > 99 && numbers[i] < 1000) {
-                res *= 10;
+                res *= 100;
             }
-
 
             res = res * 10 + numbers[i];
         }
