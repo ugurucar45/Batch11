@@ -1,0 +1,1060 @@
+package Sofskills.Notes;
+
+public class NotesDecem20 {
+    /*
+
+
+
+Search TechtorialBatch11
+
+
+
+
+TechtorialBatch11
+
+
+
+
+
+
+
+
+
+
+
+
+classnotes
+
+
+
+
+100
+Loading history...
+
+Techtorial Academy  11:13 AM
+Untitled
+package loops.forLoop;
+​
+public class NestedPractice1 {
+    public static void main(String[] args) {
+Click to expand inline (32 lines)
+
+
+
+Techtorial Academy  11:49 AM
+Untitled
+package loops.forLoop;
+​
+public class MonthsOfYears {
+    public static void main(String[] args) {
+        /*
+Click to expand inline (63 lines)
+
+
+
+Techtorial Academy  1:02 PM
+Untitled
+package loops.forLoop;
+​
+public class BreakContinue {
+​
+    public static void main(String[] args) {
+Click to expand inline (30 lines)
+
+
+
+Efe  1:16 PM
+Untitled
+perfect number
+  if sum of the divisors (exept number itself) equalls to numer, it is called perfect number > ex: 28
+
+
+
+Techtorial Academy  2:05 PM
+Untitled
+package loops.forLoop;
+​
+public class PerfectNumber {
+    public static void main(String[] args) {
+        //perfect number
+Click to expand inline (28 lines)
+
+
+
+Techtorial Academy  8:59 PM
+12/13/21 MONDAY SOFT SKILLS CLASS
+Today Agenda
+1. Soft skills Channel +
+2. STLC
+3. Testing Tehniques
+STLC
+STLC(Software Testing Life Cycle) is part of the SDLC
+Its all about Testing.
+1. Req. Analysis
+2. Test Planning
+3. Test Case development
+4. Test Env. set up
+5. Test execution
+6. Test closure
+RTM: Req. Traxcibility Matrix: 	It is type of document that map all the requirements.
+Note: When it comes to testing, there are two imp. points that we need to keep in our mind.
+1. User Requirements
+2.Acceptance Criterias.
+Because without UR and AC, WE WILL NOT BE ABLE TO TEST ANYTHING SUCCESFULLY.
+ENTRY CRITERIA:Gives the prerequisite itmes that must be completed before testing started.
+EXIT CRITERIA: Defines the items that must be completed efore testingcan be concluded.(making sure all the tests are passed, covered all the tests)
+TEST STRATEGY: it is a document that written by QA Architech. It's written only once and whole company test(plan) will be based on that
+TEST PLAN: It is a document that written by QA Lead or Sr. QA. it' s written based on Test Strategy.
+Every test executing should happen based on Test plan.
+VERIFICATION VS VALIDATION
+Verification: it is review, walkthrough and static testing. There is no code execution happening.
+Validation: It's where the code implementation happens. it is dynamic testing.
+Note: we can not do validation before doing verification.
+BUG LIFE CYCLE
+When we find a bug in software, we need to follow BUG LIFE CYCLE!
+1. Reproduce the bug(ss, video)
+2. create a bug ticket
+3. Assigned to Dev(Developer)
+4. Dev will open the ticket
+4.1 either dev can say this is duplicate or This is not a bug
+4.2 yes this is a bug
+5. dev will fix the bug
+6. tester will test the bug ticket one more time.(sanity testing)
+7. if its fixed, then we will close(ticket) it.
+WHAT IS JIRA?
+It is a bug tracking tool that help companies to manage their project workflow and bug.
+ERROR,
+        BUG,
+                FAILURE
+Error: Human mistake( we can not avoid error)
+Bug: Defect, mismatch( this is the part that Tester needs to handle)
+Failure: Result of bug.
+Failure means, the product is in the market with a bug
+ No one wants to have a failure
+ Hotfix: When we find a bug in production, We need to fix this bug rigth away without any documentation
+ SEVERITY VS PRIORITY
+ Severity is the state or quality of being severe. it means how bad is the bug
+ Severity level defined by TESTER
+ Priority is how important is this bug for company and how soon it needs be fixed. Priority level defined by PRODUCT OWNER(PO)
+ HOMEWORK
+ Please send me an example of different severity level and different priority level bug example.
+High Severity- High Priorty
+High Sverity- Low Priority
+High Priority- Low Severity
+Low Priority- Low Severity
+Interview Question: Can you give me bug scenario for High Sverity- Low Priority?
+Interview Question: Who decides the lever bug severity and priority?
+
+Efe  7:57 PM
+Untitled
+-ask user, how many names that s/he wants to store in array
+-store those names by getting it from user in to array that is called 'names'
+-print them out by using ->Arrays.toString(); method
+
+
+
+ovidiu petrovan  10:15 AM
+@Efe CANYOU PLEASE SHARE YESTERDAY CLASS NOTES. THX
+
+1 reply
+13 days agoView thread
+
+Techtorial Academy  11:56 AM
+Untitled
+Dec_14_2021
+​
+​
+​
+ create a multiplication table for the numbers from 1 to 5
+Click to expand inline (64 lines)
+
+
+
+Techtorial Academy  9:13 PM
+Untitled
+package array;
+import java.util.Arrays;
+public class CombiningArrays {
+Click to expand inline (27 lines)
+
+
+
+Techtorial Academy  6:11 PM
+ System.out.println("Enter the number of line");
+    Scanner sc = new Scanner(System.in);
+
+    int line = sc.nextInt();
+    // 2
+    // Loop has to run same time with number of line
+    int numbersOfThePyramid = 1;
+
+    for (int i=1;i<=line ;i++ ) {
+       // Now number of line and i is mathcing
+
+       // i represents the line number i am in
+       // This loop has to run i time
+       for (int j=1;j<=i ;j++ ) {
+         // When I am printing on this line should I print on everything same line?
+         // If I know this the last number i am printing in the line
+         // I should remove the space
+         if(j==i){
+           System.out.print(numbersOfThePyramid++);
+         }else{
+         System.out.print(numbersOfThePyramid++ +" ");}
+       }
+       System.out.println();
+    }
+
+Techtorial Academy  12:51 PM
+Untitled
+package array;
+import java.util.Arrays;
+public class ForEachPractice3 {
+Click to expand inline (36 lines)
+
+
+
+Techtorial Academy  1:50 PM
+Untitled
+package array;
+import java.util.Arrays;
+public class SplitPractice1 {
+Click to expand inline (44 lines)
+
+
+
+Techtorial Academy  2:10 PM
+Untitled
+package array;
+import java.util.Arrays;
+public class SplitPractice2 {
+Click to expand inline (38 lines)
+
+
+
+DINO  2:12 PM
+C
+
+Techtorial Academy  2:17 PM
+Untitled
+package array;
+import java.util.Arrays;
+public class SplitPractice1 {
+Click to expand inline (44 lines)
+
+
+
+Efe  11:31 AM
+Untitled
+!-Binary_Search
+-** array has to be sorted before applying binary search
+-binary search will give index number for existing element in the array
+-binary search will give possible place for non-existing element in the array
+
+
+
+Techtorial Academy  1:10 PM
+Untitled
+int[][] numbers = new int[2][3];
+* if you create multidimentional array by using 'new' keyword,
+inner arrays will have same size
+  ex:  int[][] numbers = new int[2][3];--> [[22, 33, 44], [55, 66, 77]]
+Click to expand inline (10 lines)
+
+
+
+Efe  1:37 PM
+Untitled
+==Task==:
+BRANDS of ITEMS:
+!Computers
+Click to expand inline (31 lines)
+
+
+
+Techtorial Academy  2:06 PM
+Untitled
+package array;
+public class MultiPractice2 {
+    public static void main(String[] args) {
+Click to expand inline (26 lines)
+
+
+2:09
+Untitled
+Dec_18_2021
+​
+​
+===Array====
+​
+index
+multiple elements
+loop
+​
+​
+​
+for each loop
+​
+========================
+​
+​
+	{'A', '4', '&','z','3','u', '*'}
+​
+	print out only digits from this array
+​
+​
+=====================
+​
+while
+do-while
+for
+​
+​
+for(int i =0; i< numbers.lenght; i++){
+
+	numbers[i]
+}
+​
+​
+--------------
+for each loop
+​
+​
+​
+int[] numbers = {12, 34, 7, 8, 9, 10};
+​
+​
+
+	for( int num : numbers){
+​
+			num
+	}
+​
+==================
+String method
+​
+​
+	split(); // it will separate given string from desired char/index
+			// return type of the split() method is string array
+​
+​
+	String str = "Today is Saturday";
+​
+​
+​
+​
+​
+	str.spit(" ");
+​
+	str.split("a"); --> Tod, y is S, turd, y
+​
+======================================
+​
+Dec_19_2021
+​
+​
+-for each loop
+​
+double[] arr = {4.5, 5.6}
+​
+for( double d :  arr ){
+
+	//coding
+​
+}
+-split() --> coming String class
+​
+String str = "It is early in the morning";
+​
+str.split(" "); --> [It, is, early, in, the, morning]
+​
+-
+​
+​
+​
+-binary search
+​
+-MultiDimentional array
+​
+​
+-Object
+​
+====================
+​
+​
+Task:
+​
+find the missing number from the sequence in the array
+​
+	{11,12,13,14,15,16,18,19}
+​
+​
+​
+	{3,4,6,7} => 20
+​
+	{3,4,5,6,7} => 25
+​
+---------------------
+​
+	{10, 12, 13, 14} ==> 49
+​
+	{10 ,11,12,13,14} ==> 60
+​
+​
+===============================
+​
+!-Binary_Search
+​
+-** array has to be sorted before applying binary search
+-binary search will give index number for existing element in the array
+-binary search will give possible place for non-existing element in the array
+​
+​
+int[] numbers ={ 4,12,10,8,5 }
+​
+Arrays.sort(numbers);
+​
+    {4,5,8,10,12}
+​
+    index number of 5 --> 1
+​
+    index number of 23 --> 6
+​
+    index number of 6 -->  3
+​
+String str = "Jake";
+​
+str.indexOf("a"); --> index number of 'a' --> 1
+​
+​
+=================Multi Dimentional Arrays=================================
+​
+int[] zipCodes = new int[5];
+​
+int[] zipCodes1 = {1,2,3,4,5};
+​
+================================
+​
+​
+​
+int[][] numbers = new int[2][3];
+* if you create multidimentional array by using 'new' keyword,
+inner arrays will have same size
+​
+  ex:  int[][] numbers = new int[2][3];--> [[22, 33, 44], [55, 66, 77]]
+​
+* if you create multi dimentional array by using curly brackets,
+  size of the inner array can vary
+​
+  ex:    String[][] states = { {"IL","OH"},{},{"CA", "WA", "OR","UT"}};
+​
+==================
+==Task==:
+BRANDS of ITEMS:
+!Computers
+"Apple", "Lenova", "HP", "Dell", "Acer"
+!TVs
+"Samsung", "LG", "Sony"
+!Speakers
+"Alexa", "Google", "Logitec", "JBL"
+--------------
+PRICES of ITEMS:
+!Computers
+Apple-2500, Lenova-1600, HP-1800, DEll-1900, Acer-1100
+--> 2500,1600, 1800, 1900,1100
+!TVs
+Samsung-2199, LG-1799, Sony-1599
+--> 2199, 1799, 1599
+!Speakers
+Alexa-79.99, Google-89.99, Logitec-64.99, JBL-55.99
+--> 79.99, 89.99, 64.99, 55.99
+​
+// STORE Brand in a multidimensional array
+// STORE Prices in a multidimensional array
+// print out prices for each product as:
+// "price for Apple is $2500"
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Collapse
+
+
+
+
+KATIE  9:16 PM
+Untitled
+Topic 12/20/21 MONDAY
+Software Testing Type
+Environmets
+Agile methodology
+Level of Testing
+Kahoot
+dev.etsy.com---> Dev
+qa.etsy.com--> QA
+uat.etsy.com/ staging.etsy.com/ preprod.etsy.com --> STAGING
+www.etsy.com--> PROD
+non-functional testings
+1.Performance
+2. Load
+3 Spike
+4. Security
+ is not part of the this course. So you don't do these type of testings
+ the most popular testing tool for Non-Functional testing are JMeter(Open source) and LoadRunner(private)
+ Note: If interviewer ask you about Non-Funct Testing your answer should be :
+ "I dont do these type of testing but if you give me a time and trainig, i will be happy to learn I am quick learner. Also, I heard about Jmeter and LoadRunner but i never used them in my prof career."
+NOTE: W e can not do testing without User requirement(UR) and acceptance criterias(AC)
+Non- Funcrional testing is done after Functional Testing.
+Testing Tehniques
+1. White Box Testing:It's done by dev with knowing internal structure of the code.(Unit Testing and Integration) are the example of White bax testing.
+Interview Question: Do you do any White box Testing?
+Answer: As a SDET, I only do Black Box Testing.
+2.Black Box Testing: it's done by Tester and without knowig the internal streucture of the code (Smoke, Regression, System, and Accepting Testing)
+UAT:User Acceptance Testing
+Grey Box Testing:It is type of testing that done by dev and tester together.
+Level of Testing:
+1.Unit Testing
+
+    2. Integration Testing
+         3. System Testing
+                4. UAT (Acceptance Testing, User Accpt Testing)
+Note: UAT Testing happens before release
+AGILE METHODOLOGY
+Product Backlog---> Sprint Backlog--> if there is no issue ---> Done
+if there is an issue--> go back.
+Agile means iteration. Scrum is important part of Agile Methodology. Agile is the most common used methd in IT industry
+SPRINT: It means time box. In Scrum methd, everytnig works based on time box(Sprint). Sprint usually takes 2 weeks
+We have these meeting in Scrum:
+1. Daily Stand-up
+2.Sprint Planning (Gromming)
+3. Sprint Review(Demo)
+4. Sprint Retrospective
+Collapse
+
+
+
+
+
+
+
+
+
+Techtorial Academy  9:06 PM
+Untitled
+Dec_21_2021
+-class
+-members of class
+-OBJECT
+-Method
+=================
+-for each ->
+for( int a : dataSource){
+
+}
+for( String a : dataSource ){
+
+}
+for( String[] a : dataSource){
+
+}
+-split()
+-binary search
+    sort() --> ascending order
+-multi dimentional array
+    String[][][] cars = new String[3][2][5]
+String[][][] doorNumbers = { { {"x","y","z","t","w"},{"x","y"} },    { {},{} },      { {},{} } }
+    -combining array
+================
+-class
+public  class B11{
+    double balance = 100;
+
+        if(){
+        String name = "blue";
+        }
+    }
+-members of class
+    1-variables
+        local
+        global
+    2-methods/functions
+String str = "Test";
+    str.substring();
+    str.charAt();
+String str5 = "Java";
+    str5.substring();
+    3-constructor*
+-OBJECT
+
+    instance of Class
+
+-methods are behavior of object
+public      void       sleep( parameter ){
+
+        //code
+}
+Collapse
+
+
+
+
+Techtorial Academy  7:13 PM
+Untitled
+Dec_22_2021
+​
+​
+class
+​
+public class NameOfClass{
+
+    -variables(Instance Variables, local variables)
+    -method : behavior of object
+            --------------------------------------------------------
+            public void NameOfMethod1(parameter/parameters){
+​
+                //code
+​
+            }
+            --------------------------------------------------------
+            public int NameOfMethod2(parameter/parameters){
+​
+                //code
+​
+            }
+            --------------------------------------------------------
+            public String NameOfMethod3(parameter/parameters){
+​
+                //code
+​
+            }
+            --------------------------------------------------------
+             public char NameOfMethod4(parameter/parameters){
+​
+                //code
+​
+            }
+            --------------------------------------------------------
+            public void lastChar(String str){
+​
+               return k;
+​
+            }
+​
+           o.lastChar("Task");
+​
+}
+​
+​
+Access Modifier:
+    -public - anywhere from the same project
+    -private - in the same class
+    -default - same package, subclasses
+    -protected - from the same package
+​
+​
+Return Types:
+    -void --> does not return any value/data
+    -primitives
+        int, boolean, short, byte, double, float, char, long
+​
+    -Object --> String, or any other object type(Car, Animal, Phone, Character, ....)
+​
+
+​
+​
+Parameters:
+​
+    public void print(String name){
+​
+        sout("Your name is "+ name);
+​
+    }
+​
+    o.print("Leo"); --> Your name is Leo
+​
+    o.print("Java"); --> Your name is Java
+​
+​
+​
+======Sytanx of Method====
+​
+​
+accessModifier + returnType + MethodName + (Parameters) --> Body{}
+​
+​
+*** Method Signature: name of the method and parameters
+​
+​
+​
+​
+​
+​
+​
+​
+    String str = "test";
+​
+    char letter = str.charAt(0);
+​
+​
+    int a = o.NameOfMethod();
+​
+​
+​
+​
+​
+members of class
+​
+methods
+​
+object
+​
+creating method
+​
+​
+!-constructor
+====================
+​
+​
+object --> instance of class
+​
+    -instance variables are belong to Object
+    -object can have behavior (methods)
+​
+=======================
+​
+​
+instance variables -vs- local variables
+​
+-instance variables are in the class but out of any block or method
+-instance variables can have default values, but local variables can not have default values
+
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Collapse
+
+
+
+
+Efe  10:31 AM
+Untitled
+    `create a method that will calculate age of a person,
+    `does not return age,
+    `will take birth year as parameter,
+    `user provides the birth year
+    `will print age of person
+
+
+
+Efe  1:24 PM
+Untitled
+!> !Static-Notes:
+!1 can be used for methods and instance variables
+!2 makes varibales and methods belong to that Class
+!3 each object will be sharing static variables and methods
+Click to expand inline (10 lines)
+
+
+
+Techtorial Academy  2:07 PM
+Untitled
+package object;
+public class StaticPetPractice {
+    String name;
+Click to expand inline (49 lines)
+
+
+2:11
+Untitled
+Dec_26_2021
+int a = 23;
+object: instance of class
+
+  AirPlane pl = new AirPlane();
+instance variable
+local variables
+object can have behavior: -- methods
+method
+public void morning(){}
+public
+private
+default
+protected
+--------
+primitives
+void
+object
+--------
+public void morning(String str, int age, boolean bl, short[] numbers){}
+parameters
+==========================================
+void
+int sum(){
+  return 5;
+}
+int number = x.sum();
+-----------------
+void sum1(){
+  2+3
+}
+x.sum1;
+======Method Overloading========
+!* when you create multiple methods with same name
+        but different parameters, it is called 'Method Overloading'.
+!* return type and access modifiers don't effect method Overloading.
+-method signature: method name + parameters
+  public  void run(String dest){
+    }
+     public  int run(String name){
+    }
+   public  boolen run(int mile){
+
+    }
+   public  void run(int mile, String dest, boolean bl){
+
+    }
+   public  void run(boolean bl, int number){
+
+    }
+============
+Static polymorphism: method overloading is a type of static polymorphism
+* java decides which method to call during compile time
+!> !Static :
+!1 can be used for methods and instance variables
+!2 makes varibales and methods belong to that Class
+!3 each object will be sharing static variables and methods
+!4 local variables can not be static
+!5 Static methods can be called without object
+!6 inside of 'Static' methods, only 'Static' methods can be called without object
+!7 inside of 'Non-Static' methods, 'Static' and 'Non-static' methods can be called without object
+!8 'static' key word has to be before 'return' type of method as a syntax rule
+Collapse
+
+
+
+
+Techtorial Academy  7:12 PM
+Bug-Life-Cycle.webp
+Bug-Life-Cycle.webp
+
+
+
+Kubra Dursun  11:03 AM
+Can you share Monday  Softskills note ?
+
+Aizada T:speech_balloon:  12:14 PM
+homework folder in slack
+12:14
+Yusuf shared there
+
+Techtorial Academy  7:36 PM
+Untitled
+package object;
+import java.util.Random;
+public class Student {
+    String name;
+    int age = 23;
+    int id;
+    public void setId(int number) {
+        id = number;
+    }
+    public void study() {
+        System.out.println(name + " is studying " + createHour() + " hours");
+    }
+    public void sleep() {
+        System.out.println(name + " is sleeping " + createHour() + " hours");
+    }
+    public void reading() {
+        System.out.println(name + " is reading " + createHour() + " hours");
+
+    }
+    public static int createHour() {
+        Random random = new Random();
+        return random.nextInt(12);
+    }
+    public static void main(String[] args) {
+        Student std1 = new Student();
+        std1.name = "David";
+        std1.study();
+        std1.reading();
+        System.out.println(createHour());
+    }
+}
+Collapse
+
+
+
+
+Efe  7:37 PM
+Untitled
+create NetFlix-Class:
+    `create following instance fields in the NetFlix-Class
+        -accountName, userName, monthlyData
+    `create a method that will update monthlyData for every usage
+    `make sure this method takes parameter for data usage, and userName
+    `run your code in a Test-Class
+Collapse
+
+
+
+New
+
+Techtorial Academy  9:10 PM
+Untitled
+Dec_28_2021
+method signature: nameofmethod + parameters
+private int calculate(int num1){}
+method overloading: same name of method but different parameters <-> method signature is different
+*method overloading happens in the same class
+-------------------------------
+int calculate(int num1){
+
+}
+int calculate(int num1, int num2){
+
+}
+int calculate(double num1){
+
+}
+int calculate(int num1, int num2, int num3){
+
+}
+public void calculate(){
+
+}
+-------------------------------
+static polymorphysim:
+
+
+static:
+`methods, instance variables
+-----=Bird====----
+public static void calculate(){
+Bird b = new Bird();
+    b.substract();
+}
+public void substract(){
+    Bird.calculate();
+    calculate();
+}
+===========Constructor======================
+1. you need Constructor to create object
+2. you use Constructor to initialize instance variables
+public void sum(){}
+Student student = new Student();
+&! creating constructor:
+-name of constructor has to be the same name with className
+-constructor can have access modifier
+-constructor can not be static, abstract or syncronized
+-constructor can NOT have return type
+public class Student{
+  int id;
+  // constructor:
+    public Student(){}
+    public Student(int newID){
+      this.id = newID;
+    }
+  // method :
+    public static void sleep(){}
+    public static void sleep(String name){}
+}
+main{
+    sleep("David");
+    Student student1 = new Student(12);
+    Student student2 = new Student();
+}
+
+Collapse
+
+
+
+
+
+Send a message to classnotes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enter to sendShift + Enter to add a new line
+     */
+}

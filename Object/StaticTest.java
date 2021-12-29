@@ -1,6 +1,6 @@
 package Object;
 
-public class TestStatic {
+public class StaticTest {
     public static void main(String[] args) {
         // you can call static methods from another class by using name of the class
         // no need to create object

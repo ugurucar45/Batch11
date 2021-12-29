@@ -2,7 +2,7 @@ package Object;
 
 import java.util.Scanner;
 
-public class TestAnimal {
+public class AnimalTest {
     public static void main(String[] args) {
         String str = new String("test");
         Scanner sc = new Scanner(System.in); //How to create any object?

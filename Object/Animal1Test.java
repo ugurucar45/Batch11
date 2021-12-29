@@ -1,6 +1,6 @@
 package Object;
 
-public class TestAnimal1 {
+public class Animal1Test {
     public static void main(String[] args) {
 
         Animal duck = new Animal();

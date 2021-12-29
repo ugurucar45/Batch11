@@ -1,4 +1,4 @@
-package Object;
+package Object.Notes;
 
 public class NotesMethodOverloading {
     /*

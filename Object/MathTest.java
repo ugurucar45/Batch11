@@ -1,6 +1,6 @@
 package Object;
 
-public class TestMath {
+public class MathTest {
 
     public static void main(String[] args) {
         MathPractice object = new MathPractice();

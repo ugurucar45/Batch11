@@ -1,6 +1,6 @@
 package Object;
 
-public class TestMethod {
+public class MethodTest {
     public static void main(String[] args) {
         MethodPractice object = new MethodPractice();
         object.age(1995);

@@ -1,6 +1,6 @@
 package Object;
 
-public class TestOverload {
+public class OverloadTest {
     public static void main(String[] args) {
 
         OverLoadingPractice sums=new OverLoadingPractice();
