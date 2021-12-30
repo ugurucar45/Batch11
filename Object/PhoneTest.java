@@ -6,6 +6,7 @@ public class PhoneTest {
         Phone phone = new Phone();
 //        phone.brand = "iphone";
 //        phone.call(5369752);
+        System.out.println("*****"+phone.color);
         Phone phone1=new Phone();
         Phone phone2=new Phone("Pink");
         System.out.println(phone2.color);

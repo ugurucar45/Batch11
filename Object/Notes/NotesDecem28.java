@@ -37,16 +37,16 @@ public class NotesDecem28 {
 //        Bird.calculate();
 //        calculate();
 //    }
-//===========Constructor======================
-//            1. you need Constructor to create object
-//2. you use Constructor to initialize instance variables
+//  ===========Constructor======================
+//      1. you need Constructor to create object
+//      2. you use Constructor to initialize instance variables
 //    public void sum(){}
 //    Student student = new Student();
-//&! creating constructor:
-//            -name of constructor has to be the same name with className
-//-constructor can have access modifier
-//-constructor can not be static, abstract or syncronized
-//-constructor can NOT have return type
+//  &! creating constructor:
+//      -name of constructor has to be the same name with className
+//      -constructor can have access modifier
+//      -constructor can not be static, abstract or syncronized
+//      -constructor can NOT have return type
 //    public class Student{
 //        int id;
 //        // constructor:

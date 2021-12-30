@@ -12,6 +12,7 @@ public class Phone {
 
     // constructor
     public Phone() {//don t have return type because constructor
+        this("Navy Blue","Google");
         System.out.println("This NO argument constructor");
     }
 
@@ -28,6 +29,11 @@ public class Phone {
         System.out.println("This TWO argument constructor");
     }
 
+    // constructor
+    public Phone(double newPrice){
+
+        System.out.println("This TWO argument constructor");
+    }
 
 
     // method to set color
