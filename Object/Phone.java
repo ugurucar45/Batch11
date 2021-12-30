@@ -12,22 +12,21 @@ public class Phone {
 
     // constructor
     public Phone() {//don t have return type because constructor
-        System.out.println("This no argument constructor");
+        System.out.println("This NO argument constructor");
     }
 
     // constructor
-    public Phone(String newColor){
-        this.color=newColor;
-        System.out.println("This One argument constructor");
-
+    public Phone(String newColor) {
+        this.color = newColor;
+        System.out.println("This ONE argument constructor");
     }
 
-
-
-
-
-
-
+    // constructor
+    public Phone(String newColor,String newBrand){
+        this.color=newColor;
+        this.brand=newBrand;
+        System.out.println("This TWO argument constructor");
+    }
 
 
 
@@ -45,6 +44,18 @@ public class Phone {
         int a = 5;
         a = 9;
     }
+    public static void main(String[]args){
+        Phone phone = new Phone();
+//        phone.brand = "iphone";
+//        phone.call(5369752);
+        Phone phone1=new Phone();
+        Phone phone2=new Phone("Pink");
+        System.out.println(phone2.color);
+        System.out.println(phone1.color);   //null but if parameter is static change pink
+        Phone phone3=new Phone("Black","Samsung");
+
+    }
+
 
 
 }
