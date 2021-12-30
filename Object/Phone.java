@@ -15,13 +15,25 @@ public class Phone {
         System.out.println("This no argument constructor");
     }
 
-    // method to set color
-    public void setColor(String color1, int i) {
-//        color = color1;
+    // constructor
+    public Phone(String newColor){
+        this.color=newColor;
+        System.out.println("This One argument constructor");
+
     }
 
-    public void setColor(int i, String color1) {
-//        color = color1;
+
+
+
+
+
+
+
+
+
+    // method to set color
+    public void setColor(String color1, int i) {
+        color = color1;
     }
 
     // method to call
