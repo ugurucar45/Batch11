@@ -192,19 +192,19 @@ public class Main {
      * @return combined numbers of array
      */
     public long combineNumbers(int[] numbers) {//use remainder try again
-        int res = 0;
-        for (int i = 0; i < numbers.length; i++) {
+        int res = 0;        //266390110
+        for (int i = 0; i < numbers.length; i++) {//{2,66,3,90,1,-10}
             if (numbers[i] < 0) {
                 numbers[i] = numbers[i] * -1;
             }
             if (numbers[i] > 9 && numbers[i] < 100) {
-                res *= 10;
+                res *= 10;//20
             }
             if (numbers[i] > 99 && numbers[i] < 1000) {
                 res *= 100;
             }
 
-            res = res * 10 + numbers[i];
+            res = res * 10 + numbers[i];     //266*10+3=2663
         }
         return res;
     }
