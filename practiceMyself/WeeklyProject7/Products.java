@@ -15,9 +15,6 @@ public class Products {
     private static int[] prices = new int[]{100, 70, 89, 17, 99, 5};
     private static int[] inventory = new int[]{4, 10, 5, 10, 5, 7};
 
-    public void itemsName() {
-    }
-
     public void listAll() {
         for (int i = 0; i < products.length; i++) {
 

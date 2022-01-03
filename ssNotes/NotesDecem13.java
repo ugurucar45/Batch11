@@ -63,5 +63,6 @@ High Priority- Low Severity
 Low Priority- Low Severity
 Interview Question: Can you give me bug scenario for High Sverity- Low Priority?
 Interview Question: Who decides the lever bug severity and priority?
+
      */
 }
