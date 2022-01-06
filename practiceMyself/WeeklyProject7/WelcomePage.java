@@ -81,6 +81,7 @@ public class WelcomePage {
                     break;
                 case 8:
                     System.out.println("Which item do you want to buy?");
+                    pro.listAll();
                     String dd = sc.nextLine();
                     pro.buyAProduct(dd);
                     break;
@@ -88,7 +89,7 @@ public class WelcomePage {
             if (exit.equals("n")) {
             } else {
                 System.out.println("\nAre you want to shopping to y/n");
-                exit = sc.nextLine();
+                exit = sc.nextLine().toLowerCase();
             }
         } while (exit.equals("y"));
         System.out.println("\nThanks for shopping with us");

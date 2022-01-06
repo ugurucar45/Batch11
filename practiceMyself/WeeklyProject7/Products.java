@@ -26,12 +26,11 @@ public class Products {
         }
     }
 
-    public static String[] getAllPrices() {
+    public static void getAllPrices() {
         System.err.println("Product: price");
         for (int j = 0; j < products.length; j++) {
             System.out.println(products[j] + ": $" + prices[j]);
         }
-        return products;
     }
 
     public static int getProductPrice(String productName) {

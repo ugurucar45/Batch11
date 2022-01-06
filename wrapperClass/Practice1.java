@@ -11,6 +11,7 @@ public class Practice1 {
         byte b=2;
         Byte bt=new Byte(b);
         System.out.println(bt);//2
+
         Student st=new Student();
         System.out.println(st);//hash code
         Car car5=new Car("Honda");
@@ -24,6 +25,10 @@ public class Practice1 {
         System.out.println(ch);//a
 
         Integer in=new Integer(4);
+        Integer integer1 = new Integer("4");
+        System.out.println(integer1);
+        int integer2 = new Integer("4");
+        System.out.println( integer2+9);
 
         Float fl=new Float(3.4);
         Double db= new Double(4.5);
@@ -31,6 +36,8 @@ public class Practice1 {
 
         Boolean bl= new Boolean(true);
         System.out.println();
+        Boolean bl1 = new Boolean("123");
+        System.out.println(bl1);
 
         //object version of primitives
 
