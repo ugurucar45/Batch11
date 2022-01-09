@@ -2,6 +2,7 @@ package practiceMyself.WeeklyProject7;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 
@@ -53,8 +54,11 @@ public class WelcomePage {
                         if (pro.selectProductName(b).equals(b)) {
                             pro.selectProductPrice(b);
                             sItemPri += pro.getProductPrice(b);
-                            System.out.println("Are you want to buy");
-                            pro.buyAProduct(b);
+                            System.out.println("Are you want to buy y/n");
+                            String c = sc.nextLine().toLowerCase();
+                            if (c.equals("y")){
+                                pro.buyAProduct(b);
+                            }else{}
                         } else {
                             System.out.println(b + " is not in our inventory");
                         }
@@ -94,6 +98,7 @@ public class WelcomePage {
         } while (exit.equals("y"));
         System.out.println("\nThanks for shopping with us");
     }
+
     private static int getIntegerInput(Scanner scanner, Integer[] expected) {
         int allOptions = -1;
         for (int i = 1; i <= 3; i++) {
@@ -120,6 +125,7 @@ public class WelcomePage {
         }
         return allOptions;
     }
+
     private static void getInstructions(int allOptions) {
     }
 }

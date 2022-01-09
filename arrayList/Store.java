@@ -6,8 +6,8 @@ public class Store {
     public static void main(String[] args) {
 
         //store 5 computer objects into an ArrayList
-        Computer com1=new Computer("Mac",1100,5.3,"Silver",500);
-        Computer com2 =new Computer("Hp",1920,3.3,"Black",200);
+        Computer com1=new Computer("Mac",1100,16,"Silver",500);
+        Computer com2 =new Computer("Hp",1920,15,"Black",200);
         Computer com3 =new Computer("Dell",1920,18.0,"Black",200);
         Computer com4 =new Computer("Lenovo",1920,20.0,"Black",200);
         Computer com5 =new Computer("Mac",1920,15.0,"Black",200);
@@ -27,15 +27,16 @@ public class Store {
         System.out.println(str1);
 
         // reach out all mac computers and show them
+        ArrayList<Computer> macComputers=new ArrayList<>();
 
         for (Computer device:list) {
             if(device.brand.equals("Mac")){
                 System.out.println(device);
                 System.out.println(device.brand);
                 System.out.println(device.price);
+                macComputers.add(device);
             }
-
         }
-
+        System.out.println(macComputers);
     }
 }

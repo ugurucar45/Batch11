@@ -10,7 +10,7 @@ public class Computer {
 
     public Computer(String brand, double price, double screenSize, String color, int storage){
         this.brand=brand;
-        this.color=color;
+        this.screenSize=screenSize;
         this.price=price;
         this.color=color;
         this.storage=storage;
