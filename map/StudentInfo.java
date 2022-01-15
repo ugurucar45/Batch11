@@ -34,6 +34,14 @@ public class StudentInfo {
         student4.put("Age", "29");
         student4.put("Gender", "F");
         student4.put("City", "Chicago");
+        student4.put("First", "");
+
+
+        for (Object str :student4.values()){        //i added this loop after StringBuilder
+
+            String str1=(String) str;
+            System.out.println("** "+str1);
+        }
 
         List<HashMap<String,String>> studentList = new ArrayList<>();
         studentList.add(student1);
