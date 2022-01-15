@@ -11,7 +11,7 @@ public class EmployeeeTest {
         Employee e3= new Employee("David","Denver",34,9);
         Employee e4= new Employee("John","Houston",43,19);
 //        e1.id= e1.genereteId();
-//        e2.id= e1.genereteId();
+//        e2.id= e2.genereteId();
 //        e3.id= e3.genereteId();
 //        e4.id= e4.genereteId();
         mapOfEmployees.put(e1.id,e1);

@@ -39,7 +39,7 @@ public class Employee {
         Random random =new Random(10);
         int id=0;
         int aa= random.nextInt();
-        for(int i=0;i<16;i++){
+        for(int i=0;i<12;i++){
             id=id*10+aa;
         }
         return id;
