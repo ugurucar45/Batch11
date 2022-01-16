@@ -65,8 +65,8 @@ public class Practice1 {
         String string=builder.toString();
 
         System.out.println(string);                     //TECH******ACADEMY
-        string=string.concat("Student");
-        System.out.println(string);                     //TECH******ACADEMYStudent
+        string=string.concat(" Student");
+        System.out.println(string);                     //TECH******ACADEMY Student
 
     }
 }
