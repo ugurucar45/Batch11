@@ -1,4 +1,4 @@
-package inheritance;
+package OOP.inheritance;
 
 public class WildAnimal extends Animal {
     //i use extends Animal and its child of animal class

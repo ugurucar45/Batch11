@@ -1,4 +1,4 @@
-package encapsulation;
+package OOP.encapsulation;
 
 public class CityTest {
     public static void main(String[]args){

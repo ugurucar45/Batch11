@@ -1,4 +1,4 @@
-package encapsulation;
+package OOP.encapsulation;
 
 public class City {
     private String name;
