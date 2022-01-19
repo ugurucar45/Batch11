@@ -39,4 +39,40 @@ public class Jan18Notes {
 
 
      */
+    /*
+    Hiding Static methods
+        !! you can not override static methods, can only HIDE
+        !! if a child class defines a static method from its parent with the same method signature
+    that method will be hidden from the implementation.
+        !! to hide a method all overriding rules apply, exept making it static
+        !! parent method is <--> static, child method has to be static
+     */
+    /*
+  Rules of constructors:
+        -must have same name with class
+        -does not have return types
+        -it initialize instance variables
+        -every constructor inherits from it's parent class constructor
+        -super() has to be in the first line, when you call parent class constructor
+            in the child class's constructor
+        -if the parent class does not have 'no-argument' constructor,
+            you must call super class constructor and initialize the variables.
+            Or, you need to create 'no-argument' constructor in the parent class.
+     */
+
+    //interview question
+    //What is sout
+    //System.out.println();
+    //      System= Class
+    //      out= instance variable
+    //      println= method
+
+    //interview question
+    //reversing string
+    //palindrome or not interview question
+    //oop
+    //overloading vs overriding
+    //static
+    //calling methods
+    //objects
 }
