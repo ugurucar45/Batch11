@@ -11,6 +11,8 @@ public class OnlineStudent extends Student {
         super("Marry",25);
     }
 
-
+    public void sleep(int hour){
+        System.out.println("Online student is sleeping");
+    }
 
 }
