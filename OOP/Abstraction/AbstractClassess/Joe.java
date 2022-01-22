@@ -1,5 +1,5 @@
 package OOP.Abstraction.AbstractClassess;
 
 public abstract class Joe extends OnlineStudent{
-    public abstract void playVideoGame();
+    public/*you cant add static or final or private*/ abstract void playVideoGame();
 }
