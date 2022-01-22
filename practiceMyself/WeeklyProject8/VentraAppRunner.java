@@ -1,10 +1,11 @@
 package practiceMyself.WeeklyProject8;
 
+
 import java.util.Scanner;
 
 public class VentraAppRunner {
 
-    static VentraCardMachine machine = new VentraCardMachine("Chicago");
+    VentraCardMachine machine = new VentraCardMachine("Chicago");
 
     public static void main(String[] args){
         welcome();
@@ -21,42 +22,75 @@ public class VentraAppRunner {
     }
 
     private static void makeAChoice(String choice){
-        Scanner s=new Scanner(System.in);
-        Scanner forNextLine=new Scanner(System.in);
-        switch (choice){
-            case "0":
-                System.out.println("Thank you for working with us");
-                break;
-            case "1":
-                System.out.println("Enter full Name");
-                String fullName=forNextLine.nextLine();
-                System.out.println("Enter phoneNumbers");
-                String phoneNumber=s.next();
-                System.out.println("Enter email");
-                String email= s.next();
-
-                //VentraCard card= new VentraCard(phoneNumber);
-                VentraCard card= VentraCard.createCard(fullName,phoneNumber,email);
-                machine.addCard(card);
-                //Make createCard method in VentraCard
+        int a=0;
+        do {
+            VentraCardMachine machine = new VentraCardMachine("Chicago");
+            switch (choice) {
+                case "0":
+                    System.out.println("Thank you for working with us");
+                    a=1;
+                    break;
+                case "1":
                 /*
                 1- Using scanner get the information of User (FullName, PhoneNumber, Email)
                 2- Create new card According to this information(Call createCard method)
                 3- Call addCard method from VentraCard Machine and add new card
                  */
-                break;
-            case "2":
-                break;
-            case "3":
-                break;
-            case "4":
-                break;
-            case "5":
-                break;
-            case "6":
-                break;
-
-        }
+                    Scanner sc = new Scanner(System.in);
+                    System.out.println("Enter Full Name");
+                    String fullName = sc.nextLine();
+                    System.out.println("Enter Phone Number");
+                    String phoneNumber = sc.nextLine();
+                    System.out.println("Enter email");
+                    String email = sc.nextLine();
+                    machine.addCard(fullName,phoneNumber,email);
+                    break;
+                case "2":
+                    machine.cardHoldersNameAndCardName(machine.getAllCards());
+                    break;
+                case "3":
+                    machine.printCardNumbers(machine.getAllCards());
+                    break;
+                case "4":
+                    Scanner sc1 = new Scanner(System.in);
+                    System.out.println("Enter Full Name");
+                    String fullName1 = sc1.nextLine();
+                    System.out.println("Enter Phone Number");
+                    String phoneNumber1 = sc1.nextLine();
+                    System.out.println("Enter email");
+                    String email1 = sc1.nextLine();
+                    System.out.println("Enter oldCarNumber");
+                    long oldCardNumber = sc1.nextLong();
+                    VentraCard num1 = new VentraCard(fullName1, phoneNumber1, email1);
+                    machine.updateCard(oldCardNumber, num1);
+                    break;
+                case "5":
+                    Scanner sc3 = new Scanner(System.in);
+                    System.out.println("Enter oldCarNumber");
+                    long oldCardNumber1 = sc3.nextLong();
+                    System.out.println("Enter newCarNumber");
+                    long newCardNumber1 = sc3.nextLong();
+                    machine.updateCardNumber(oldCardNumber1, newCardNumber1);
+                    break;
+                case "6":
+                    Scanner sc4 = new Scanner(System.in);
+                    System.out.println("Enter oldCarNumber");
+                    long oldCardNumber2 = sc4.nextLong();
+                    System.out.println("Enter email");
+                    String email2 = sc4.nextLine();
+                    machine.replaceEmail(oldCardNumber2, email2);
+                    break;
+                case "7":
+                    Scanner sc2 = new Scanner(System.in);
+                    System.out.println("Enter phone Number");
+                    long phoneNumber2 = sc2.nextLong();
+                    machine.showInfo(phoneNumber2);
+                    break;
+                case "8":
+                    printOptions();
+                    break;
+            }
+        }while(a==0);
     }
 
     public static void welcome(){
@@ -78,4 +112,3 @@ public class VentraAppRunner {
         System.out.println("0 - To exit");
     }
 }
-

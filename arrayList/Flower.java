@@ -1,7 +1,5 @@
 package arrayList;
 
-import practiceMyself.WeeklyProject8.VentraCard;
-
 import java.util.ArrayList;
 
 public class Flower {

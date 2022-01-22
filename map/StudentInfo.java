@@ -52,7 +52,7 @@ public class StudentInfo {
         studentList.set(1,student1);
         System.out.println(studentList);
 
-        //Find all students who are living in chicago and show teheir name
+        //Find all students who are living in chicago and show their name
 
         for (HashMap studentInfoMap : studentList) {
             if (studentInfoMap.get("City").equals("Chicago")) {
