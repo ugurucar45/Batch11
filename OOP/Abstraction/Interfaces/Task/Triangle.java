@@ -13,6 +13,7 @@ public class Triangle implements Shape{
     public Double getArea() {
         double area=base*height/2;
 //        System.out.println("Area is "+area);
+        System.out.println("from triangle");
         return area;
     }
 
@@ -20,6 +21,7 @@ public class Triangle implements Shape{
     public int getPerimeter() {
         double pre=base+side1+side2;
 //        System.out.println("Perimeter is "+(int) pre);
+        System.out.println("from triangle");
         return (int)pre;
     }
 

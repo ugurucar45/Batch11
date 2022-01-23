@@ -1,7 +1,4 @@
-package ssNotes;
 
-public class Agile {
-    /*
 
 What is agile methodology?
 
@@ -63,5 +60,3 @@ Differences between Scrum And Agile
 
 Agile is development methodology
 Scrum is one of implementations of agile methodology.
-     */
-}

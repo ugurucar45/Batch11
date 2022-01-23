@@ -1,8 +1,5 @@
-package OOP.inheritance;
 
-public class Jan16Notes {
-    /*
-    Jan_16_2022
+   Jan_16_2022
 -access midifiers
 -blocks
 -immutable class: if you have only getters in a class that type of class is
@@ -63,5 +60,3 @@ Method Overriding:
   -signature of the method: it will stay the same
   protected void run(){}
   public void run(){}
-     */
-}

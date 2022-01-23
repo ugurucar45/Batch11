@@ -1,8 +1,6 @@
-package object.Notes;
 
-public class NotesDecem26 {
-    /*
-    Dec_26_2021
+Dec_26_2021
+
 int a = 23;
 object: instance of class
 
@@ -64,6 +62,3 @@ Static polymorphism: method overloading is a type of static polymorphism
 !6 inside of 'Static' methods, only 'Static' methods can be called without object
 !7 inside of 'Non-Static' methods, 'Static' and 'Non-static' methods can be called without object
 !8 'static' key word has to be before 'return' type of method as a syntax rule
-
-     */
-}

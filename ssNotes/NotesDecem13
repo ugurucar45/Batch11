@@ -1,8 +1,4 @@
-package ssNotes;
-
-public class NotesDecem13 {
-    /*
-    Today Agenda
+   Today Agenda
 1. Soft skills Channel +
 2. STLC
 3. Testing Tehniques
@@ -64,5 +60,3 @@ Low Priority- Low Severity
 Interview Question: Can you give me bug scenario for High Sverity- Low Priority?
 Interview Question: Who decides the lever bug severity and priority?
 
-     */
-}

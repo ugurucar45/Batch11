@@ -1,8 +1,4 @@
-package ssNotes;
-
-public class NotesDecem6 {
-    /*
-    Difference between Agile & Waterfall
+  Difference between Agile & Waterfall
  -> Waterfall is linear development Agile is continous iteration
  of development and testing .
 -> Agile is flexible whereas Waterfall is structured development process.
@@ -57,5 +53,3 @@ Ensures all acceptance criteria has matched in developed application.
   Product Map                         Project Map
   Release Planning                    Priorization in user stories.
   Customer focused                    Conflict resolution
-     */
-}

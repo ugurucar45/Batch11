@@ -1,8 +1,4 @@
-package object.Notes;
-
-public class NotesDecem21 {
-    /*
-    Dec_21_2021
+            Dec_21_2021
 -class
 -members of class
 -OBJECT
@@ -53,7 +49,4 @@ String str5 = "Java";
 public      void       sleep( parameter ){
 
         //code
-}
-
-     */
 }

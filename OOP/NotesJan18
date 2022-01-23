@@ -1,7 +1,5 @@
-package OOP;
 
-public class Jan18Notes {
-    /*
+
     ====OOP====
 
     Encapsulation:
@@ -71,6 +69,3 @@ public class Jan18Notes {
         -static
         -calling methods
         -objects
-
-     */
-}

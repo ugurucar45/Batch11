@@ -1,8 +1,4 @@
-package ssNotes;
-
-public class NotesDecem6again {
-    /*
-    What is agile methodology?
+  What is agile methodology?
 
 It is a type of project management process.
 Everything can change quickly and also requirements can change quickly.
@@ -62,5 +58,3 @@ Differences between Scrum And Agile
 
 Agile is development methodology
 Scrum is one of implementations of agile methodology.
-     */
-}

@@ -1,5 +1,3 @@
-package OOP.Abstraction.Interfaces;
-/*
 Jan_22_2022
 ===Abstraction===
     abstract class:
@@ -43,4 +41,4 @@ interface -->  shape
 have some intance fields
 have area and perimeter methods
 ----
-triangle: implement shape in the triangle class */
+triangle: implement shape in the triangle class

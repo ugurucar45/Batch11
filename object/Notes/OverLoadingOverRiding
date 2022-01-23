@@ -1,7 +1,4 @@
-package object.Notes;
 
-public class OverLoadingOverRiding {
-    /*
     Method Overriding:
     *method overriding happens in parent-child class relations
     *using parent method in to child class with same syntax but diffferent implementation
@@ -24,6 +21,3 @@ public class OverLoadingOverRiding {
 
     =====================
     Wrapper Classes
-
-     */
-}

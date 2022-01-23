@@ -1,32 +1,11 @@
-package ssNotes;
-
-public class NotesDecem20 {
-    /*
-
-
 
 Search TechtorialBatch11
-
-
 
 
 TechtorialBatch11
 
 
-
-
-
-
-
-
-
-
-
-
 classnotes
-
-
-
 
 100
 Loading history...
@@ -232,8 +211,7 @@ Click to expand inline (38 lines)
 
 
 
-DINO  2:12 PM
-C
+
 
 Techtorial Academy  2:17 PM
 Untitled
@@ -340,9 +318,7 @@ String method
 ​
 	String str = "Today is Saturday";
 ​
-​
-​
-​
+
 ​
 	str.spit(" ");
 ​
@@ -468,65 +444,15 @@ Samsung-2199, LG-1799, Sony-1599
 !Speakers
 Alexa-79.99, Google-89.99, Logitec-64.99, JBL-55.99
 --> 79.99, 89.99, 64.99, 55.99
-​
+
 // STORE Brand in a multidimensional array
 // STORE Prices in a multidimensional array
 // print out prices for each product as:
 // "price for Apple is $2500"
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
+
+
+
+
 Collapse
 
 
@@ -724,8 +650,8 @@ Parameters:
 ​
     o.print("Java"); --> Your name is Java
 ​
-​
-​
+
+
 ======Sytanx of Method====
 ​
 ​
@@ -734,11 +660,7 @@ accessModifier + returnType + MethodName + (Parameters) --> Body{}
 ​
 *** Method Signature: name of the method and parameters
 ​
-​
-​
-​
-​
-​
+
 ​
 ​
     String str = "test";
@@ -747,10 +669,8 @@ accessModifier + returnType + MethodName + (Parameters) --> Body{}
 ​
 ​
     int a = o.NameOfMethod();
-​
-​
-​
-​
+
+
 ​
 members of class
 ​
@@ -771,34 +691,15 @@ object --> instance of class
     -object can have behavior (methods)
 ​
 =======================
-​
-​
+
 instance variables -vs- local variables
-​
+
 -instance variables are in the class but out of any block or method
 -instance variables can have default values, but local variables can not have default values
 
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
-​
+
+
+
 Collapse
 
 
@@ -901,21 +802,7 @@ Collapse
 
 
 
-Techtorial Academy  7:12 PM
-Bug-Life-Cycle.webp
-Bug-Life-Cycle.webp
 
-
-
-Kubra Dursun  11:03 AM
-Can you share Monday  Softskills note ?
-
-Aizada T:speech_balloon:  12:14 PM
-homework folder in slack
-12:14
-Yusuf shared there
-
-Techtorial Academy  7:36 PM
 Untitled
 package object;
 import java.util.Random;
@@ -949,7 +836,6 @@ public class Student {
     }
 }
 Collapse
-
 
 
 
@@ -1031,30 +917,11 @@ main{
     Student student1 = new Student(12);
     Student student2 = new Student();
 }
-
 Collapse
-
-
-
 
 
 Send a message to classnotes
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Enter to sendShift + Enter to add a new line
-     */
-}

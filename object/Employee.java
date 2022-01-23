@@ -1,4 +1,4 @@
-package object.Notes;
+package object;
 
 public class Employee { /*
     `method: to update company budget

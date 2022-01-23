@@ -1,8 +1,8 @@
-package object.Notes;
 
-public class NotesMethodOverloading {
-    /*
-    *When you create multiple methods with same name but different parameters, its called Method Overloading
+
+
+
+*When you create multiple methods with same name but different parameters, its called Method Overloading
     *return type and access modifiers dont effect method overloading
 
 
@@ -45,6 +45,3 @@ public class NotesMethodOverloading {
         !6 inside of 'Static' methods, only 'Static' methods can be called without object
         !7 inside of 'Non-Static' methods, 'Static' and 'Non-static' methods can be called without object
         !8 'static' key word has to be before 'return' type of method as a syntax rule
-
-     */
-}
