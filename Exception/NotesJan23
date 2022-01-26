@@ -1,0 +1,65 @@
+
+
+    Jan_23_2022
+
+polymorphism: example
+Exceptions:
+OOP:
+Abstraction:
+  -abstract class:
+  -interface:
+    abstract method: no method body
+    -implements
+    -default--> keyword is allowing you to create a regular/default method in interface
+    -access modifiers: they are public by default
+    -methods of interface can have any return type as you do before
+    -interfaces can be extended by another interface
+    -you cannot create object from interface,
+        unless you override abstract methods for that object
+    -multiple interfaces can be implemented in one child class
+    -a Child class can implement multiple interfaces and extends one super class
+Encapsulation
+Inheritance
+polymorphism
+==========polymorphism===========
+-multiple forms:
+   Shape shape1 = new Isosceles();
+   -reference(left side) of the object determines where to call methods
+   -rigt side of the object determines which method to call
+===========
+    Vehicle - > interfaces
+    Car --> concrete class
+    Camry -> child of car
+=======================================
+    Camry camry = new Camry();
+    Car   camry =  new Camry();
+    Vehicle camry = new Camry();
+    =================
+    HashMap hashmap = new HashMap();
+    Map  map = new HashMap();
+    Set set  = new HashSet();
+    =========
+dynamic polymorphism: method overriding
+static polymorphism: method overloading
+camry
+ sum()
+ honda
+ sum()
+ ----
+x.sum()
+===========EXCEPTIONS=============
+try{
+  String str = "54";
+  int a = Integer.parseInt(str);
+}catch(Exception x){
+  sout("Hey! t is not number")
+  // code
+}
+===============
+try
+catch
+throws --> is the keyword when your implementation will get exception
+throw  -> is keyword to create your own exception
+finally --> block which will work with try and catch.
+            it will be the last thing to execute
+final - finalize() - finally{}

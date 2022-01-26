@@ -1,0 +1,71 @@
+1/24/22 MONDAY
+Today Agenda
+1. Tell me about yourself
+2. Selenium and Maven
+3. Soft Skills Recap
+=========================
+Tell me about yourself?
+They can ask you this question in so many diff ways.
+such as Tell me abouy your profile picture?
+or why dont you tell us who you are?
+Answer:
+ Hi, I am Renas as you can see in my resume. I have been in IT industry more than blah blah years. I have exprecience in 3 different layers of the software application. My programing language is JAVA.
+Front End (UI) I use Java and Selenium webdriver
+Backaned (API): For Manual purpose, I use Postman and for automation, I use Rest Assured libraries.
+DataBase: Manual purpose, I use MySQL(you only do relational database) and for automation, I use JDBC(Java Database connectivity)
+For project management and dependency centralizitaion I use MAVEN
+For Bug tracking and and management, i use JIRA
+ for version control I use Github, Bitbucket, Gitlab (only say one of them)
+  For CI/CD I use Jenkins
+  I have experience of working in Agile env. and I am familiar with all Scrum meetings.
+  As far as personality concern, I describe myself, detail oriented, cross functional team player and great communicator
+In my free time, I love to travel, cook and running. That pretty much about me.
+-------------------------------------------------------
+SELENIUM:
+Its a tool that used for UI automation. Selenium is a free(open) source. The latest versionis Slenium 4. The most common used tool for UI Automation.
+Alternative tools to Selenium are Cypress, QTP, Serenity etc.
+Advantage of Selenium: 1. Open source which means its free.
+                       2. It has a great community support
+                       3. its work with most of the programing languages such as Java, Ruby, C# etc.
+                       4. It works on most of the browsers
+Disadvantage of Selenium: 1. We can not automate picture with selenium
+                          2. We can not automate capctha
+                          3 Please do a bit research till next Selenium class.
+                          4. Its only for Webbrowser applicatoons.
+=====================================================================
+RECAP
+Q: testing level?
+A: 1. Unit
+        2. Integration
+              3. System
+               4.    Acceptance
+Q: What is Smoke Testing ?
+A: Smoke Testing is checking the main functionality of the aplication. It's a functional testing. Also It's  Black box testing. Its done by testers.
+Q: What kind of testing do you do?
+I do functional testing such as Smoke, Regression, Sanity, End2End Acceptance testing.
+Q:  What is Non-Functional testing? Have you even done it?
+Anything that is aout of Functional consider as Non funtional testing such as, Security, Load, Endurence, Stress etc. I never done nonfunctional testing but I would love to learn if i see an oppurtunity.
+Q: What is Sanity Testing:
+Sanity Testing is part of Regression Testing. We do Sanity testing after major bug fix.
+Q How many env do you have in your current work?
+A:Dev--> QA---> PreProd---> Prod.
+Q what kind of scrum meeting do you know please explain?
+Daily Stand-up, Sprint Planing, Sprint Demo, and Sprint Retrospective meeting
+Q Who attend Sprint Demo meeting?
+PO, Scrum team and Stakeholders
+Q: What is Bug life Cycle?
+A: it is cylce that help tester to follow right steps for bugs.
+Open--> assign--> Fixed--> Retest---> Close.
+NOTE: The first thing to do is Taking a screenshot or video as a proof for bug.
+Q;How long is your sprint?
+Q: What is your team structure?
+Q: What is product Backlog, sprint Backlog?
+product Backlog: user stories that needs to be implemented based on user requirement
+sprint Backlog: User stories that needs to be completed in one sprint.
+Q: What is verification(static testing, walkthrough) vs Validation(coding , action)
+Q:What is priority and severity? WHo decide tham?
+Q: What is RTM?
+Q:  Capacity vs Velocity?
+Q: Why you are in the market?
+My project is ending soon thats why I am nlooking for a new oppurtunities. I would like to challenge myself in different work env and gallenge myself wiuth learning new tools and making new great friends.
+A: I am looking for a company that will provide a solid work and life balance
