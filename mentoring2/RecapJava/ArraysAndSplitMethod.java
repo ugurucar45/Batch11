@@ -2,7 +2,7 @@ package mentoring2.RecapJava;
 
 import java.util.Arrays;
 
-public class ArrayAndSplitMethod {
+public class ArraysAndSplitMethod {
 
     /*
     POSSIBLE INTERVIEW QUESTION
