@@ -1,6 +1,5 @@
 package mentoring2.RecapJava;
 
-import java.lang.invoke.StringConcatFactory;
 import java.util.Arrays;
 
 public class ArrayAndSplitMethod {
