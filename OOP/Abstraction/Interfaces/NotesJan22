@@ -38,7 +38,7 @@ overriding
 ===================
 TASK:
 interface -->  shape
-have some intance fields
+have some instance fields
 have area and perimeter methods
 ----
 triangle: implement shape in the triangle class

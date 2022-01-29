@@ -5,10 +5,32 @@ public class ObjectsAndMethods {
     INTERVIEW QUESTIONS:
     FACEBOOK:
     1)What is object? and tell me about its methods ?(2-3)
+     -OBJECT is a presentation of the class.(BLUEPRINT)
+     -There are many methods but I used
+
+     #.equals --> which is comparison
+     #.Hashcode--> memory location of the data
+     #.toSTRING--> it shows the all the variable in a string mode.
+
+
     2)What is the difference between object and class?
-    3)
+    OBJECT AND CLASS:
+    OBJECT: object is a member or instance of a class.
+    CLASS : class is a blueprint/template which you can create as many objects as you like
+
+    OBJECT: You can create as many as you want to have
+    CLASS : one class
+
+    OBJECT: is declared(initialize) with NEW keyword.
+    CLASS : is declared CLASS keyword.
 
 
+    3)How do you initialize the instance variables?
+    There are different ways to initialize the instance variables. I mostly used
+    *Constructor
+    Methods(Setters)
+    *Create an object
+    Directly assign the
 
 
 //TASK 1:
