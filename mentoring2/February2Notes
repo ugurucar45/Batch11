@@ -1,0 +1,19 @@
+PROCESS:
+1)JAVA-->
+QA-SDET-->Responsibility--> Testing(Automation or Manual)
+TOOLS:
+Automations:--> 1)HTML
+				2)Selenium(is an automation tool UI(user interface))
+				3)Cucumber(is a bridge between non-technical and technical people)
+				4)API(is an automation for backend testing)-->POSTMAN(manual tool)
+				4-1)Rest assure library --> pojo class, type reph, jason path
+				5)Mobile Testing(APPIUM)
+				6)Apache PIO(really good program to get data from excel.)
+				7)SQL-> Database (JDBC )
+				8)Selenium Grid(Parallel testing)
+1)HTML--> Hyper Text Markup Language -->
+	*HTML is a way to organize(create/structure) your tags,pictures,videos and special attributes
+	for the page.
+	HTML-->it is kind of your SKIN
+	HEAD-->It is kind of your HEAD-->Speaking,controlling your body..
+	BODY-->It is kind of your BODY--> Most of the organs,functions are stored in here
