@@ -63,13 +63,8 @@ public class Main {
     public boolean threeAmigos(int[] array) {
         boolean res = false;
         for (int i = 0; array.length-2 > i; i++) {
-            if (array[i] % 2 == 1&&array[i+1] % 2 == 1&&array[i+2] % 2 == 1) {
-                res = true;
-                break;
-            }
-        }
-        for (int i = 0; array.length-2 > i; i++) {
-            if (array[i] % 2 == 0 && array[i+1] % 2 == 0 &&array[i+2] % 2 == 0) {
+            if (array[i] % 2 == 1&&array[i+1] % 2 == 1&&array[i+2] % 2 == 1||
+                    array[i] % 2 == 0 && array[i+1] % 2 == 0 &&array[i+2] % 2 == 0) {
                 res = true;
                 break;
             }
